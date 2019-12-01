@@ -1,0 +1,1224 @@
+/*Início - Padrão para todas as páginas */
+
+body {
+
+    background-color: white;
+
+}
+
+.navbar-custom-expand-sm {
+
+    background-color: black;
+}
+
+.navbar-custom-expand-sm .navbar-brand,
+.navbar-custom-expand-sm .navbar-text {
+
+    color: white;
+}
+
+
+.navbar-custom-expand-sm .navbar-nav li a {
+
+    color: white;
+}
+
+
+.navbar-custom-expand-sm .navbar-nav .active a,
+.navbar-custom-expand-sm .navbar-nav a:hover {
+
+    background-color: white;
+    color: black;
+
+}
+
+
+/* Deixando a posi��o da barra de pesquisa mais a esquerda. */
+#navSearch {
+
+    margin-left: 1%;
+
+}
+
+#btnSearch {
+
+    background-color: black;
+    font-weight: bold;
+
+    color: white;
+    border-color: white;
+
+}
+
+
+#bottomDefault {
+
+    height: 600px;
+    background-color: black;
+
+}
+
+#bottomDefault a {
+
+    color: white;
+    font-size: 18px;
+
+}
+
+#bottomDefault h2 {
+
+    color: white;
+
+}
+
+
+#bottomRow1,
+#bottomRow2 {
+
+    margin-bottom: 100px;
+
+}
+
+#bottomPag {
+
+    margin-bottom: 80px;
+
+}
+
+/*FIm - Padrão para todas as páginas */
+
+/* Página vitrine */
+
+#bdyVitrine {
+
+    background-color: black;
+
+}
+
+
+/*Início - Para deixar o carousel atrás das navbars */
+
+.navbar {
+    z-index: 9;
+}
+
+
+#myCarousel {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+/* Fim */
+
+
+/*Para modificar a posição da navbar que está em frente ao carousel em relação ao topo da tela. */
+
+#navContainer {
+
+    margin-top: 40px;
+
+}
+
+#smartphones {
+
+    position: relative;
+    border: solid 20px black;
+    background-color: white;
+    margin-top: 500px;
+    height: 2760px;
+}
+
+
+#firstPainel {
+
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+    border: solid 20px black;
+}
+
+.panel-primary {
+
+    width: 60%;
+    height: 550px;
+    /*Para padronizar o tamanho d panel. */
+    border-color: black;
+
+}
+
+
+.panel-primary .panel-footer {
+    /* Para ajustar a altura da parte cinza do panel */
+
+    height: 290px;
+
+}
+
+#textResize {
+
+    position: absolute;
+    bottom: 60px;
+
+}
+
+
+/*Início - Para dar o efeito de zoom nos produtos. */
+.panel-primary {
+    
+    transition: transform .10s ease;
+}
+
+.panel-primary:hover {
+    
+    transform: scale(1.1);
+
+    /*Fim - Para dar o efeito de zoom nos produtos. */
+
+}
+
+.panel-primary .panel-heading {
+
+    background-color: black;
+    color: white;
+}
+
+
+#leftMarg {
+    
+    margin-left: 7%;
+    
+}
+
+
+#centeredNav {
+    
+    margin-left: 28%;
+    
+}
+
+
+#btnCollapse1,
+#btnCollapse2 {
+    
+    display: none;
+    background-color: black;
+    margin-left: 10%;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 12%;
+}
+
+
+#collapseRow1,
+#collapseRow2 {
+    
+    display: initial;
+    
+}
+
+/*Fim - página vitrine*/
+
+/*Início - tela esqueci a senha*/
+
+#bdyEsqSenha {
+
+    background-color: white;
+
+}
+
+#contEsqSenha {
+
+    border: solid 8px black;
+    background-color: black;
+    margin-top: 10%;
+    width: 50%;
+    text-align: center;
+    height: 350px;
+    color: white;
+    margin-bottom: 10%;
+
+    border-radius: 8px;
+}
+
+
+#formEmail {
+
+    margin-bottom: 80px;
+    margin-left: -50px;
+    font-size: 18px;
+
+}
+
+#titleEsqShn {
+
+    margin-bottom: 20px;
+
+}
+
+#subEsqShn {
+
+    margin-bottom: 70px;
+
+}
+
+#btnEnviar {
+
+    width: 25%;
+    color: black;
+    background-color: white;
+
+}
+
+#btnEnviar:hover {
+
+    color: white;
+    background-color: black;
+
+}
+
+
+/*Página esqueci a senha - Fim*/
+
+
+
+/*Tela de login  - Início */
+
+
+
+#MainCont {
+
+    margin-top: 10%;
+    /*Para aumentar a distância em relação a navbar em cima  */
+    margin-bottom: 10%;
+
+}
+
+
+
+
+#leftContainer h2,
+#leftContainer h5 {
+
+    margin-left: 5%;
+    /*Para modificar a posição esquerda dos títulos  */
+
+}
+
+#leftContainer #lastH5 {
+
+    margin-bottom: 4%;
+    /*Para dar um espaço embaixo do último título  */
+
+}
+
+
+#formCliente {
+
+    margin-right: 40%;
+    /*Para deixar o forms de cliente cadastrado mais a direita */
+
+}
+
+#MainCont .btn-default,
+#MainCont #formCliente #login,
+#MainCont #formCliente #senha {
+    /* Padronizando o tamanho dos campos e dos botões */
+    width: 200px;
+    height: 40px;
+    margin-top: -1px;
+
+}
+
+#formCliente #btnEnviar #btnEnviar2 {
+
+    /*Mudando a posição do botão  */
+    margin-top: 2%;
+    margin-left: 13%;
+
+}
+
+
+#btnEnviar1,
+#btnEnviar2 {
+
+    background-color: black;
+    font-weight: bold;
+    width: 25%;
+    color: white;
+    border-color: black;
+    margin-top: -5%;
+    margin-left: 15%;
+}
+
+#btnEnviar2:hover,
+#btnEnviar1:hover {
+
+    background-color: white;
+    color: black;
+
+}
+
+
+/* Modificando o container da direita*/
+
+#rightContainer h2,
+#rightContainer label {
+
+    margin-left: 5%;
+    /*Para modificar a posição esquerda do título e a label  */
+    margin-bottom: 5%;
+
+}
+
+#rightContainer #btnEnviar {
+
+    /*Mudando a posição do botão  */
+    margin-top: -5%;
+    margin-left: 10%;
+
+
+}
+
+/*Barra vertical*/
+
+
+
+.vl {
+    border-left: 2px solid black;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    margin-top: 10%;
+}
+
+
+
+
+
+/*Fim - tela login  */
+
+
+
+
+
+/* Tela cesta - Início     */
+
+#divCesta {
+
+    margin-top: 12%;
+    margin-left: 22%;
+    box-shadow: -1px 4px 26px 11px black;
+    height: 500px;
+    width: 60%;
+    margin-bottom: 12%;
+
+
+}
+
+
+.table-bordered thead tr,
+.table-bordered thead tr th,
+.table-bordered tbody tr,
+.table-bordered tbody tr td {
+
+    border: solid 2px black;
+
+}
+
+.table-bordered thead {
+
+    background-color: black;
+    color: white;
+
+}
+
+.table-bordered tbody tr #xRemove {
+
+    border: solid 2px white;
+
+}
+
+#tableCesta {
+
+    margin-left: 4%;
+    width: 60%;
+}
+
+#h1Cesta {
+
+    margin-bottom: 5%;
+}
+
+#btnLimpCest,
+#btnFimComp {
+
+    background-color: black;
+    color: white;
+    margin-top: 14%;
+}
+
+
+
+#btnLimpCest {
+    width: 15%;
+    margin-left: 14%;
+    margin-right: -1%;
+}
+
+
+#btnFimComp {
+    width: 15%;
+    margin-left: 9%;
+
+}
+
+#btnLimpCest:hover,
+#btnFimComp:hover {
+
+    background-color: white;
+    color: black;
+
+}
+
+
+#h3Total {
+
+    margin-top: 7%;
+    margin-left: 24%;
+    margin-bottom: -9%;
+
+}
+
+
+/* Tela cesta - Fim */
+
+
+/*Inicio - tela produto detalhe  */
+
+#bdyProdDet {
+
+    height: 20px;
+    margin-bottom: 30%;
+
+}
+
+
+
+
+#prodDetCar {
+
+    width: 40%;
+
+}
+
+#MainCont {
+
+    margin-top: 40px;
+
+}
+
+#prodDetCont2 {
+
+    margin-left: -30%;
+
+}
+
+#prodDetBtn {
+
+    width: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 13%;
+    margin-left: -12%;
+    height: 50px;
+}
+
+#centralText {
+
+    margin-top: 3%;
+    margin-left: 6%;
+
+}
+
+
+#btnFicha {
+
+    width: 400px;
+    background-color: black;
+    color: white;
+    margin-top: 13%;
+    margin-left: 34%;
+    height: 50px;
+    margin-bottom: 2%;
+
+
+}
+
+#btnFicha:hover,
+#prodDetBtn:hover {
+
+    color: black;
+    background-color: white;
+
+}
+
+
+
+
+
+/*Fim - tela produto detalhe  */
+
+
+
+/* Inicio - tela cadastro  */
+
+/* ------------- pagina cadastro ----------------------------------*/
+
+#cadastro {
+
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 26%;
+    margin-bottom: 8%;
+    box-shadow: -1px 4px 20px 11px black;
+    padding: 84px;
+}
+
+
+#textAlign {
+
+    margin-left: 18%;
+
+}
+
+#cadastro input,
+#cadastro select,
+#cadastro textarea,
+#cadastro button {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    border-radius: 4px;
+    margin: 8px;
+    padding: 4px;
+
+    vertical-align: middle;
+}
+
+lbdNome {
+
+    margin-left: 1%;
+
+}
+
+lbdMail {
+
+    margin-right: 0%;
+    margin-left: 1%;
+}
+
+
+tel {
+    margin-left: -3%;
+
+}
+
+conf {
+
+    margin-left: -10%;
+
+}
+
+lbdCpf {
+
+    margin-left: 3%;
+}
+
+
+#cadastro #bt1 {
+
+    background-color: black;
+    font-weight: bold;
+    width: 35%;
+    color: white;
+    border-color: black;
+    margin-top: 10%;
+    margin-left: 18%;
+    margin-bottom: -4%;
+
+}
+
+#cadastro #bt1:hover {
+
+    background-color: white;
+    color: black;
+
+}
+
+
+
+/* Fim - tela cadastro  */
+
+
+
+/*Inicio - tela busca */
+
+#busca {
+    position: relative;
+    border: solid 20px white;
+
+    background-color: white;
+    margin-top: 10px;
+    height: 850px;
+}
+
+
+
+/*Fim - tela busca  */
+
+
+/* Inicio - tela quem somos */
+
+#SomosCont {
+
+    margin-top: 8%;
+    margin-bottom: 8%;
+
+}
+
+
+/*Fim - tela quem somos */
+
+
+/*Inicio - tela como comprar */
+
+#como_comprar {
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+
+
+/* FIm - tela como comprar  */
+
+/* Inicio - tela contato*/
+
+#contatos .modal-content {
+    border-radius: 10px;
+    border: 1px;
+    padding: 40px 41px;
+    margin: auto;
+    width: 60%;
+    box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.1);
+
+}
+
+#contatos .title {
+    text-align: center;
+}
+
+#contatos .data {
+    text-align: left;
+    padding: 0 10px;
+}
+
+.bg {
+    margin-top: -4%;
+    margin-bottom: -4%;
+    background: url(mobile.jpg) no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+/*Fim - tela contato */
+
+
+/*Inicio - tela politica de privacidade */
+
+/* margem na pagina politica*/
+#politica {
+
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+
+
+/*FIm - politica de privacidade  */
+
+
+
+
+
+@media screen and (max-width: 576px) and (min-width:0px) {
+
+    /*Início - padrão para todas as telas*/
+
+    #bottomDefault {
+        margin-top: 50px;
+        height: 800px;
+        background-color: black;
+
+    }
+
+    #bottomRow1 {
+
+        margin-bottom: 60px;
+
+    }
+
+    #logoVisa {
+
+        position: absolute;
+        height: 85px;
+        width: 20%;
+        top: -30px;
+        left: 30px;
+    }
+
+    #logoMaster {
+
+
+        position: absolute;
+        height: 85px;
+        width: 20%;
+        top: -30px;
+        left: 190px;
+
+    }
+
+
+    #logoAmeric {
+
+        position: absolute;
+        height: 85px;
+        width: 20%;
+        top: -30px;
+        left: 350px;
+    }
+
+
+    #logoElo {
+
+        position: absolute;
+        height: 85px;
+        width: 20%;
+        top: 80px;
+        left: 30px;
+
+    }
+
+
+    #logoHipCard {
+
+
+        position: absolute;
+        height: 85px;
+        width: 20%;
+        top: 80px;
+        left: 190px;
+
+
+    }
+
+
+    #logoBoleto {
+
+
+        position: absolute;
+        height: 85px;
+        width: 20%;
+        top: 80px;
+        left: 350px;
+
+    }
+
+    /*Fim - padrão para todas as telas*/
+
+
+    /*Início - tela vitrine*/
+
+    .navbar {
+        z-index: default;
+    }
+
+
+    #centeredNav {
+
+        margin-left: 0%;
+
+    }
+
+    #myCarousel {
+
+        position: relative;
+
+    }
+
+    #smartphones {
+
+        position: relative;
+        border: solid 20px black;
+
+        background-color: white;
+        margin-top: 40px;
+        height: 3320px;
+    }
+
+
+
+    #firstPainel h1 {
+
+        font-size: 18px;
+
+    }
+
+    #firstPainel {
+        margin-top: 30px;
+    }
+
+
+
+    .panel-primary {
+
+        width: 60%;
+        height: 480px;
+        /*Para padronizar o tamanho d panel. */
+        border-color: black;
+    }
+
+    /* Para ajustar a altura da parte cinza do panel */
+
+    .panel-primary .panel-footer {
+
+
+        height: 225px;
+
+    }
+
+
+    #leftMarg {
+
+        margin-left: 25%;
+
+    }
+
+    #btnCollapse1 {
+
+        display: initial;
+    }
+
+    #collapseRow1,
+    #collapseRow2 {
+
+        display: none;
+
+    }
+
+    #textResize {
+
+        position: absolute;
+        bottom: 5px;
+
+    }
+
+
+
+    /*Fim - tela vitrine*/
+
+    /*Início - tela esqueci a senha*/
+
+    .rounded {
+
+        width: 60;
+        height: 40%;
+
+    }
+
+
+    #contEsqSenha {
+
+        margin-top: 100px;
+        width: 90%;
+        height: 380px;
+
+
+
+    }
+
+    #formEmail #colEmail #email {
+
+        width: 60%;
+        margin-left: 27%;
+
+    }
+
+
+
+    #ldbEmail {
+
+        position: absolute;
+        left: 40px;
+        margin-top: 5px;
+
+    }
+
+
+    /*Inicio - tela produto detalhe  */
+
+    #bdyProdDet {
+
+        height: 20px;
+        margin-bottom: 30%;
+
+    }
+
+
+    #prodDetCar {
+
+        width: 80%;
+        margin-left: 9%;
+
+    }
+
+
+    #prodDetCont2 {
+
+        margin-left: 25%;
+        width: 60%;
+    }
+
+    #prodDetBtn {
+
+
+        margin-left: 30%;
+
+    }
+
+    #price {
+
+        position: absolute;
+        margin-left: -27%;
+        margin-top: 9%;
+        margin-bottom: 9%;
+
+    }
+
+    #priceParag {
+
+        margin-bottom: 54px;
+    }
+
+    #btnFicha {
+
+
+        margin-left: 12%;
+        height: 50px;
+
+
+
+    }
+
+    /* FIm - tela esqueci a senha */
+
+
+
+    /*Tela de login  - Início */
+
+
+
+    #MainCont {
+
+        margin-top: 10%;
+        /*Para aumentar a distância em relação a navbar em cima  */
+
+    }
+
+
+
+    #leftContainer h2,
+    #leftContainer h5 {
+
+        margin-left: 10%;
+        /*Para modificar a posição esquerda dos títulos  */
+
+    }
+
+
+
+    #formCliente {
+
+        margin-left: 25%;
+        /*Para deixar o forms de cliente cadastrado mais a direita */
+
+    }
+
+
+
+
+
+    #btnEnviar1 {
+        /*Mudando a posição do botão  */
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-bottom: 20%;
+    }
+
+    #btnEnviar2 {
+
+        margin-left: 35%;
+
+    }
+
+
+
+
+    /* Modificando o container da direita*/
+
+    #rightContainer h2 {
+
+        margin-left: 10%;
+        /*Para modificar a posição esquerda do título e a label  */
+        margin-bottom: 5%;
+
+    }
+
+
+    #rightContainer label {
+
+        margin-left: 25%;
+    }
+
+
+    #cadEmail {
+
+        margin-left: 27%;
+        width: 60%;
+        margin-bottom: 15%;
+
+    }
+
+
+
+
+
+
+    .vl {
+
+        display: none;
+    }
+
+
+
+
+
+    /*Fim - tela login  */
+
+    /* Inicio - tela cadastro */
+
+    #cadastro {
+
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 8%;
+        box-shadow: -1px 4px 20px 11px black;
+        padding: 84px;
+    }
+
+
+    #textAlign {
+
+        margin-left: 7%;
+
+    }
+
+
+
+
+
+
+
+    #cadastro #bt1 {
+
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 20%;
+        margin-bottom: -8%;
+
+    }
+
+
+
+
+    /* Fim - tela cadastro  */
+
+    /*  Inicio - tela busca */
+    #busca {
+
+        height: 1750px;
+    }
+
+
+    /*Fim - tela busca  */
+
+
+    #divCesta {
+
+        margin-left: 6%;
+        width: 90%;
+
+
+    }
+
+
+
+
+
+    #tableCesta {
+
+        margin-left: 6%;
+        width: 90%;
+
+    }
+
+
+
+
+
+    #btnLimpCest {
+        width: 35%;
+        margin-left: 10%;
+        margin-right: 1%;
+    }
+
+
+    #btnFimComp {
+        width: 35%;
+        margin-left: 9%;
+
+    }
+
+
+
+
+    #h3Total {
+
+        margin-top: 7%;
+
+        margin-bottom: -3%;
+
+    }
+
+
+
+
+}
